@@ -12,9 +12,9 @@ fine = 0;
 } else if (dayslate >= 1 && dayslate <= 5) {
 fine = dayslate * 20;
 } else { 
-fine = dayslate * 30; 
+fine = dayslate * 30
 }
-cout << "total fine for user " <<i " = " <<fine;
+cout << "total fine for user" <<i "=" <<fine;
 totalfine = totalfine + fine;
 }
 cout << "total fine collected = " <<totalfine;
